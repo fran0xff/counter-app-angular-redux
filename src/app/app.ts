@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Counter } from './components/counter';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Counter],
   templateUrl: './app.html',
-  styleUrl: './app.css'
 })
 export class App {
   protected title = 'counter-app-angular-redux';
